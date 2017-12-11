@@ -1,6 +1,9 @@
 # TableToCsv
 creating  a csv file using ngcsv directive
 
+We need ngcsv directive, for this please download from 
+
+https://github.com/asafdav/ng-csv
 
 We have three Objects namely , 1: DatalableObjects, 2: datakeys, 3 Objects.
 
@@ -16,6 +19,8 @@ ngcsv using below format,
 
 to get these formats we use the logic below,
 
+
+copy this logic in the controller and it will work,
 
 'use strict'
 
