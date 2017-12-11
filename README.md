@@ -180,9 +180,9 @@ Once we get the contentArray and headerArray in the below format,
   
   then we can use below code, to pass the values to ngcsv directive,
   
-  <div ng-controller="TableToCsvController">
+               <div ng-controller="TableToCsvController">
         <button type="button" ng-csv="contentArray" csv-header="HeaderArray" filename="Download.csv">Export</button>
-</div>
+                    </div>
 
 
 
