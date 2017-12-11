@@ -4,9 +4,18 @@ creating  a csv file using ngcsv directive
 
 We have three Objects namely , 1: DatalableObjects, 2: datakeys, 3 Objects.
 
-datakeys is used as a filter to get proerties from objects.
+datakeys is used as a filter to get properties from objects.
 
 We generate HeaderArray from DatalabelObjects and contentarray from datakeys and objects by using the belwo code,
+
+
+ngcsv using below format,
+
+  //ng-csv header array format is $scope.headarr=["name","place","animal"];
+//ng-csv content array format is $scope.getArray=[["dinesh","ameerpet","lion"],["ganesh","koti","elephant"],["ramesh","balakampet","tiger"]];
+
+to get these formats we use the logic below,
+
 
 'use strict'
 
